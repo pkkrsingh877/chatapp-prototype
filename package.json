@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.1.2",
+    "morgan": "^1.10.0"
+  },
+  "name": "chatapp-prototype",
+  "version": "1.0.0",
+  "description": "This app will be a real time chat application. Users will be able to text each other and they will be able to post stuff that other users will be able to view and comment on.",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Chat",
+    "Application"
+  ],
+  "author": "Prabhat Kumar",
+  "license": "ISC"
+}
