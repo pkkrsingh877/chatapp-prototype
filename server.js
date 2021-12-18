@@ -13,6 +13,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(methodOverride('_method'));
 app.use(morgan('dev'));
+app.use('/public', express.static(path.join(__dirname, 'public')))
 
 mongoose.connect('mongodb://localhost:27017/chatapp-prototype', {
     useNewUrlParser: true,
