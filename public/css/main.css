@@ -1,11 +1,35 @@
 main {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 1;
 }
 
 .navigation {
-    width: 20%;
+    min-width: 20%;
+    display: flex;
+    flex-direction: column;
 }
-.main {
-    width: 60%;
+
+.navigation ul li a {
+    text-align: center;
+}
+
+.requests {
+    min-width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 900px) {
+    .requests {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .navigation {
+        display: none;
+    }
 }
