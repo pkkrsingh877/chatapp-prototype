@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "This app will be a real time chat application. Users will be able to text each other and they will be able to post stuff that other users will be able to view and comment on.",
   "main": "server.js",
-  "devDependencies": {},
   "dependencies": {
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
+    "ejs-mate": "^3.0.0",
     "express": "^4.17.2",
     "method-override": "^3.0.0",
     "mongoose": "^6.1.2",
