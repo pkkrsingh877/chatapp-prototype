@@ -36,9 +36,12 @@ app.set('views', path.join(__dirname, 'views'));
 const authRoutes = require('./routes/auth');
 app.use('/auth', authRoutes); 
 
+app.get('/chat', (req, res) => {
+    res.render('home/chat');
+});
+
 app.get('/', (req, res) => {
-    // res.send('Working');
-    res.render('index');
+    res.render('home/index');
 });
 
 app.listen(3000, () => {
