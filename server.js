@@ -32,6 +32,10 @@ app.engine('ejs', ejsMate);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
+//setting up routes
+const authRoutes = require('./routes/auth');
+app.use('/auth', authRoutes); 
+
 app.get('/', (req, res) => {
     // res.send('Working');
     res.render('index');
