@@ -3,6 +3,7 @@
 
 1. Built Homepage
 2. Built and serving signup and login page
+3. Made chatapp-prototype Responsive
 
 ## Features to Add
 
