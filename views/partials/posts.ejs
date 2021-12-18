@@ -1,4 +1,22 @@
 <section class="main">
+<section class="d-flex flex-column m-3">
+    <h1 class="h1">Make a post</h1>
+    <form class="d-flex flex-column" action="/user/post" method="POST">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" class="form-control" name="title" id="title" placeholder="post title">
+        </div>
+        <div class="mb-3">
+            <label for="body" class="form-label">Body</label>
+            <input type="text" class="form-control" id="body" name="body" placeholder="post body">
+        </div>
+        <div class="mb-3">
+          <label for="image" class="form-label">Image</label>
+          <input type="text" class="form-control" id="image" name="image" placeholder="image link">
+      </div>
+        <button class="btn btn-outline-dark">Post</button>
+    </form>
+</section>
     <div class="card posts">
       <img src="https://cdn-www.comingsoon.net/assets/uploads/2021/05/dragon-ball.jpg" class="card-img-top" alt="...">
       <div class="card-body">
