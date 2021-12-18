@@ -1,0 +1,11 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation {
+    width: 20%;
+}
+.main {
+    width: 60%;
+}
