@@ -38,6 +38,10 @@ app.use('/user', userRoutes);
 const authRoutes = require('./routes/auth');
 app.use('/auth', authRoutes); 
 
+app.get('/friends', (req, res) => {
+    res.render('home/friends');
+});
+
 app.get('/chat', (req, res) => {
     res.render('home/chat');
 });
